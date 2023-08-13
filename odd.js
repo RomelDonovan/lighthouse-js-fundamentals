@@ -1,5 +1,5 @@
 const isOdd = function(num) {
-  return num % 3 === 0;
+  return num % 2 !== 0;
 }
 
 console.log("3 is odd: " + isOdd(3)); //3 is odd: true
